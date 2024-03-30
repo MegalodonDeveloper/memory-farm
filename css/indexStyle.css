@@ -1,6 +1,10 @@
 
 :root{
     --white-color: white;
+    --dark_blue-color:#20262E; 
+    --light_blue-color: #0082e6;
+    --wheat-color: wheat;
+    --red-color: rgb(209, 27, 27);
 }
 
 
@@ -14,15 +18,15 @@ a{
     text-decoration: none;color: var(--white-color);
 }
 #No1{
-    padding: 0% 1%;background: #20262E;height: 100%;overflow-y: hidden;
+    padding: 0% 1%;background: var(--dark_blue-color);height: 100%;overflow-y: hidden;
 }
 .exhibit-1{
-    background: #20262E;
+    background: var(--dark_blue-color);
     padding: 2% 3% 2%;
 }
 .navbar{
     padding: 0% 1%;
-    background: #20262E;display: flex;
+    background: var(--dark_blue-color);display: flex;
     flex-direction: row;margin: 0;
     justify-content: space-between;overflow: hidden;
 }
@@ -67,14 +71,14 @@ label{
     font-size: 4rem;line-height: 0.1;
 }
 .home h3{
-    font-size: 2rem;line-height: 1;color: wheat;margin: 0;
+    font-size: 2rem;line-height: 1;color: var(--wheat-color);margin: 0;
 }
 .home p{
     font-size: 1rem;font-weight: 600;
 }
 .home .alink a{
     font-weight: 500;background: none;margin-top: 10px;font-size: 0.8rem;transition: all 0.6s;
-    color: #0082e6;text-decoration: underline;
+    color: var(--light_blue-color);text-decoration: underline;
 }
 .home .alink a:hover{
     transition: all 0.6s;
@@ -82,11 +86,11 @@ label{
 }
 .home .scrolldown{
     background: rgb(235, 235, 4);border: none;padding: 13px 20px;border-radius: 100%;
-    font-size: 1.5rem;font-weight: 600;color: #20262E;cursor: pointer;transition: all 0.6s;margin: -10px;
+    font-size: 1.5rem;font-weight: 600;color: var(--dark_blue-color);cursor: pointer;transition: all 0.6s;margin: -10px;
     float: right;
 }
 .home .scrolldown a{
-    color: #20262E;
+    color: var(--dark_blue-color);
 }
 .home .scrolldown:hover{
     transition: all 0.6s;
@@ -128,10 +132,10 @@ label{
 }
 .pictures .play-button:hover{
     transition: all 0.6s;
-    background: rgb(209, 27, 27);
+    background: var(--red-color);
 }
 #on-update{
-    background: #20262E;padding: 15px;padding-bottom: 5%;color: rgb(63, 194, 117);overflow-y: hidden;overflow: hidden;
+    background: var(--dark_blue-color);padding: 15px;padding-bottom: 5%;color: rgb(63, 194, 117);overflow-y: hidden;overflow: hidden;
 }
 .on-upgrade{
     text-align: center;
@@ -141,20 +145,20 @@ label{
     
 }
 .on-upgrade button{
-    display:inline-block;margin-left: 15px;padding: 8px 11px;background: #0082e6;border: none;font-weight: 600;cursor: pointer;
+    display:inline-block;margin-left: 15px;padding: 8px 11px;background: var(--light_blue-color);border: none;font-weight: 600;cursor: pointer;
     color: var(--white-color);transition: all 0.6s;
 }
 .on-upgrade button:hover{
     transition: all 0.6s;background: #0082e6a2;
 }
 #No2{
-    background: #20262E;padding: 1% 5% 3.5%;
+    background: var(--dark_blue-color);padding: 1% 5% 3.5%;
 }
 .area-one{
     background: none;height: auto;width: 65%;margin: 0 auto;
 }
 .area-one h1{
-    text-align: center;font-size: 2.5rem;color: wheat;font-weight: 600;
+    text-align: center;font-size: 2.5rem;color: var(--wheat-color);font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;border-bottom: 3px solid rgb(235, 235, 4);
     width: 30%;margin: 0 auto;margin-bottom: 10px;
 }
@@ -186,16 +190,16 @@ label{
     color: var(--white-color);font-size: 2.3rem;font-family: 'Source Sans Pro', sans-serif;line-height: 0.8;
 }
 .area-two p{
-    width: 61%;margin: 0 auto;color: wheat;font-size: 14px;font-family: 'Alatsi', sans-serif;
+    width: 61%;margin: 0 auto;color: var(--wheat-color);font-size: 14px;font-family: 'Alatsi', sans-serif;
 }
 #No3{
-    background: #0082e6;padding: 2% 1% 2%;
+    background: var(--light_blue-color);padding: 2% 1% 2%;
 }
 .contact-us{
     justify-content: space-between;display: flex;gap: 2rem;
 }
 .contact-us_one{
-    background: none;width: 45%;color: #20262E;
+    background: none;width: 45%;color: var(--dark_blue-color);
 }
 .contact-us_one button{
     background: none;border: none;cursor: pointer;width: 150px;margin-left: 15px;
@@ -217,7 +221,7 @@ label{
     border-radius: 5px;font-weight: 600;
 }
 .contact-us_two{
-    background: hsl(214, 18%, 15%);text-align: center;width: 45%;border-radius: 5px;color: #20262E;
+    background: hsl(214, 18%, 15%);text-align: center;width: 45%;border-radius: 5px;color: var(--dark_blue-color);
     
 }
 .contact-us_two input{
@@ -228,7 +232,7 @@ label{
     border-radius: 5px;margin: 15px;font-weight: 600;
 }
 #No4{
-    background: #20262E;padding: 1% 8% 3%;
+    background: var(--dark_blue-color);padding: 1% 8% 3%;
 }
 .about-one{
     width: 100%;padding: 0% 0% 4%;
@@ -257,7 +261,7 @@ label{
     text-align: left;
 }
 .book-box h3{
-    color: wheat;border-bottom: 1px solid wheat;padding: 3px;
+    color: var(--wheat-color);border-bottom: 1px solid wheat;padding: 3px;
 }
 .book-box p{
     color: var(--white-color);font-family: 'Alatsi', sans-serif;
@@ -272,7 +276,7 @@ label{
 }
 .about-two p{
     background: rgba(255, 255, 255, 0.849);padding: 18px;width: 75%;margin: 0 auto;margin-top: 30px;border-radius: 5px;
-    text-align:justify;color: #20262E;line-height: 1.4;font-family: 'Alatsi', sans-serif;
+    text-align:justify;color: var(--dark_blue-color);line-height: 1.4;font-family: 'Alatsi', sans-serif;
 }
 #footer{
     background: #23313f;padding: 7% 1% 4%;display: flex;justify-content: space-between;
@@ -282,11 +286,11 @@ label{
     background: none;width: 30%;padding: 0px 10px 10px;height: 300px;text-align: center;
 }
 .my-profile{
-    background: #20262E;margin: 0 auto;width: 240px;text-align: center;padding: 15px;
+    background: var(--dark_blue-color);margin: 0 auto;width: 240px;text-align: center;padding: 15px;
     border-radius: 5px;
 }
 .my-profile h2{
-    color: wheat;
+    color: var(--wheat-color);
     padding: 7px 7px 0px;margin: 0;line-height: 0.9;
 }
 .my-profile p{
@@ -308,7 +312,7 @@ label{
     font-weight: 700;font-size: 2rem;color: var(--white-color);
 }
 .list{
-    background: #20262E;width: 20%;padding: 0px 10px 15px;height: 310px;border-radius: 5px;
+    background: var(--dark_blue-color);width: 20%;padding: 0px 10px 15px;height: 310px;border-radius: 5px;
 }
 .skill-list{
     flex-grow: 1;margin-right: 50px;
@@ -317,14 +321,14 @@ label{
     background: none;color: var(--white-color);padding: 0 5px 10px;border-bottom: 2px solid wheat;
 }
 .list p,a{
-    padding: 5px;margin: 5px;color: wheat;font-weight: 600;
+    padding: 5px;margin: 5px;color: var(--wheat-color);font-weight: 600;
     transition: all 0.6s;cursor: pointer;
 }
 .list a{
     text-decoration:underline;
 }
 .list a:hover{
-    transition: all 0.6s;color: rgb(209, 27, 27);
+    transition: all 0.6s;color: var(--red-color);
 }
 .content{
     width: 30%;background: none;padding: 35px;margin: 0 auto;margin-top: 80px;text-align: center;
@@ -334,17 +338,17 @@ label{
     color: var(--white-color);transition: all 0.6s;cursor: pointer;
 }
 .content i:hover{
-    transition: all 0.6s;color: rgb(209, 27, 27);
+    transition: all 0.6s;color: var(--red-color);
 }
 .my-sources{
-    background: #20262E;margin: 0 auto;width: 240px;text-align: center;padding: 10px 15px;margin-top: 9px;
+    background: var(--dark_blue-color);margin: 0 auto;width: 240px;text-align: center;padding: 10px 15px;margin-top: 9px;
     border-radius: 5px;
 }
 .my-sources p{
     margin-top: 0;padding: -5px;color: var(--white-color);
 }
 .my-sources p a{
-    font-size:10px;text-decoration: underline;color: #0082e6;transition: all 0.6s;
+    font-size:10px;text-decoration: underline;color: var(--light_blue-color);transition: all 0.6s;
 }
 .my-sources p a:hover{
     color: var(--white-color);
@@ -358,7 +362,7 @@ label{
     }
     .contact-us_two select{
         width: 41.5%;padding: 5px;border: none;
-        border-radius: 5px;margin: 15px;color: #20262E;
+        border-radius: 5px;margin: 15px;color: var(--dark_blue-color);
     }
 }
 @media(max-width:1200px){
@@ -372,7 +376,7 @@ label{
         display: none;
     }
     .is-active{
-        background: #20262E;position: fixed;height:100vh;width: 100%;z-index: 700;margin: 0 auto;
+        background: var(--dark_blue-color);position: fixed;height:100vh;width: 100%;z-index: 700;margin: 0 auto;
         text-align: center;
     }
     .is-active h1{
@@ -401,7 +405,7 @@ label{
     }
     .home .scrolldown{
         background: rgb(235, 235, 4);border: none;padding: 13px 20px;border-radius: 100%;
-        font-size: 1.5rem;font-weight: 600;color: #20262E;cursor: pointer;transition: all 0.6s;margin: -10px;
+        font-size: 1.5rem;font-weight: 600;color: var(--dark_blue-color);cursor: pointer;transition: all 0.6s;margin: -10px;
         float: right;margin-top: -60px;
     }
     .home .scrolldown:hover{
@@ -424,7 +428,7 @@ label{
         margin-top: 85px;
     }
     #No1{
-        padding: 0% 1% 1%;background: #20262E;height: 840px;
+        padding: 0% 1% 1%;background: var(--dark_blue-color);height: 840px;
     }
     .exhibit-1{
         background: none;
@@ -472,7 +476,7 @@ label{
     }
     .contact-us_one select{
         float: right;position: relative;top:-15px;margin-right: 10px;width: 46%;padding: 5px;border: none;
-        border-radius: 5px;color: #20262E;
+        border-radius: 5px;color: var(--dark_blue-color);
     }
     .contact-us_two{
         background: hsl(214, 18%, 15%);text-align: center;width: 95%;border-radius: 5px;margin: 0 auto;
@@ -483,7 +487,7 @@ label{
     }
     .contact-us_two select{
         width: 31%;padding: 5px;border: none;
-        border-radius: 5px;margin: 15px;color: #20262E;
+        border-radius: 5px;margin: 15px;color: var(--dark_blue-color);
     }
 }
 @media(max-width:965px){
@@ -500,7 +504,7 @@ label{
         background: none;width: 40%;padding: 0px 10px 10px;height: 310px;text-align: center;
     }
     .list{
-        background: #20262E;width: 30%;padding: 0px 10px 15px;height: 310px;border-radius: 5px;
+        background: var(--dark_blue-color);width: 30%;padding: 0px 10px 15px;height: 310px;border-radius: 5px;
     }
     .blogs-list{
         width: 80%;margin: 0 auto;margin-top: 30px;height: 210px;
@@ -554,7 +558,7 @@ label{
         color: var(--white-color);font-weight: 600;align-items: center;
     }
     .area-two table tr,th{
-        border-bottom: 1px solid rgb(209, 27, 27);font-size: 0.8rem;border-left: none;
+        border-bottom: 1px solid var(--red-color);font-size: 0.8rem;border-left: none;
         margin-top: 5px;
     }
     .pictures .memory{
@@ -588,7 +592,7 @@ label{
         width: 80%;margin: 0 auto;margin-top: 30px;height: 210px;
     }
     .list{
-        background: #20262E;padding: 0px 10px 15px;height: 310px;border-radius: 5px;margin-left: 10px;
+        background: var(--dark_blue-color);padding: 0px 10px 15px;height: 310px;border-radius: 5px;margin-left: 10px;
         margin-top: 130px;
     }
     .blogs-list{
@@ -631,7 +635,7 @@ label{
     }
     .home .scrolldown{
         background: rgb(235, 235, 4);border: none;padding: 13px 20px;border-radius: 100%;
-        font-size: 1.5rem;font-weight: 600;color: #20262E;cursor: pointer;transition: all 0.6s;margin: -10px;
+        font-size: 1.5rem;font-weight: 600;color: var(--dark_blue-color);cursor: pointer;transition: all 0.6s;margin: -10px;
         float: right;margin-top: -60px;margin-right: -15px;
     }
     .home .scrolldown:hover{
@@ -682,7 +686,7 @@ label{
     }
 }
 #No1A{
-    padding: 0% 1% 8%;background: #20262E;height: auto;
+    padding: 0% 1% 8%;background: var(--dark_blue-color);height: auto;
 }
 .game-list{
     background: none;width: 100%;display: flex;align-items: center;padding-top: 90px;padding-bottom: 1%;
@@ -699,7 +703,7 @@ label{
     width: 115px;
 }
 .game-box h2{
-    background: none;width: 80%;margin: 20px auto;font-size: 26px;color: wheat;
+    background: none;width: 80%;margin: 20px auto;font-size: 26px;color: var(--wheat-color);
     border-bottom: 1px solid rgb(235, 235, 4) ;padding: 8px 0px;
 }
 .game-box p{
@@ -709,13 +713,13 @@ label{
     background: none;display: flex;justify-content: space-evenly;flex-wrap: wrap;
 }
 .sources p a{
-    color: #0082e6;text-decoration: underline;
+    color: var(--light_blue-color);text-decoration: underline;
 }
 .sources p a:hover{
     color: var(--white-color);
 }
 #No1B{
-    padding: 1% 1% 8%;background: #20262E;height: 100vh;
+    padding: 1% 1% 8%;background: var(--dark_blue-color);height: 100vh;
 }
 .titles{
     background: none;width: 100%;display: flex;align-items: center;
@@ -726,7 +730,7 @@ label{
     background: none;text-align: center;font-family: 'Source Sans Pro', sans-serif;
 }
 .report p{
-    text-align: center;margin: 0 auto;color: rgb(209, 27, 27);
+    text-align: center;margin: 0 auto;color: var(--red-color);
 }
 .box-list{
     background: none;width: auto;height: 400px;margin: 10px;display: flex;text-align: center;
@@ -752,10 +756,10 @@ label{
     background: #FFD93D;
 }
 .game-over{
-    background: rgb(209, 27, 27);
+    background: var(--red-color);
 }
 #No1C{
-    padding: 1% 1% 1%;background: #20262E;height: 100vh;
+    padding: 1% 1% 1%;background: var(--dark_blue-color);height: 100vh;
 }
 .titles-s{
     display: flex;flex-wrap: wrap;justify-content: space-evenly;
@@ -774,10 +778,10 @@ label{
     width: 90px;background: none;border: 1px solid white;border-radius: 5px;
 }
 #sources-g{
-    background: #20262E;padding: 1% 2% 5%;display: flex;flex-wrap: wrap;justify-content: space-between;
+    background: var(--dark_blue-color);padding: 1% 2% 5%;display: flex;flex-wrap: wrap;justify-content: space-between;
 }
 #sources-g p,a{
-    background: none;font-size: 16px;color: #0082e6;cursor: pointer;transition: all 0.6s;
+    background: none;font-size: 16px;color: var(--light_blue-color);cursor: pointer;transition: all 0.6s;
 }
 #sources-g p,a:hover{
     color: var(--white-color);transition: all 0.6s;
