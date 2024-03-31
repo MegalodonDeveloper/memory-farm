@@ -1,7 +1,5 @@
 
 var orginalevent = document.querySelector('.navbar')
-
-
 document.getElementById('burgermenu').addEventListener("click", function(){
     document.querySelector('.navbar').classList.add("is-active")
 },false);

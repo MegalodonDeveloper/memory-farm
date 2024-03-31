@@ -5,6 +5,9 @@
     --light_blue-color: #0082e6;
     --wheat-color: wheat;
     --red-color: rgb(209, 27, 27);
+    --regular_blue-color: rgb(63, 131, 194);
+    --gold-color: rgb(235, 235, 4);
+    --green-color: rgb(63, 194, 117);
 }
 
 
@@ -85,7 +88,7 @@ label{
     color: var(--white-color);
 }
 .home .scrolldown{
-    background: rgb(235, 235, 4);border: none;padding: 13px 20px;border-radius: 100%;
+    background: var(--gold-color);border: none;padding: 13px 20px;border-radius: 100%;
     font-size: 1.5rem;font-weight: 600;color: var(--dark_blue-color);cursor: pointer;transition: all 0.6s;margin: -10px;
     float: right;
 }
@@ -106,12 +109,12 @@ label{
     font-size: 36px;font-weight: 600;
 }
 .custom-button button{
-    background: rgb(63, 194, 117);border: none;color: var(--white-color);padding: 12px 25px;align-items: center;
+    background: var(--green-color);border: none;color: var(--white-color);padding: 12px 25px;align-items: center;
     font-weight: 600;font-size: 15px;cursor: pointer;transition: all 0.6s;
 }
 .custom-button button:hover{
     transition: all 0.6s;
-    background: rgb(63, 131, 194);
+    background: var(--regular_blue-color);
 }
 .pictures img{
     width: 18rem;background: none;
@@ -127,7 +130,7 @@ label{
     z-index: 4;transition: all 0.6s;transform: rotate(30deg);
 }
 .pictures .play-button{
-    background: rgb(63, 194, 117);border: none;margin-top: 25px;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
+    background: var(--green-color);border: none;margin-top: 25px;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
     padding: 15px 25%;transition: all 0.6s;cursor: pointer;z-index: 3;
 }
 .pictures .play-button:hover{
@@ -135,7 +138,7 @@ label{
     background: var(--red-color);
 }
 #on-update{
-    background: var(--dark_blue-color);padding: 15px;padding-bottom: 5%;color: rgb(63, 194, 117);overflow-y: hidden;overflow: hidden;
+    background: var(--dark_blue-color);padding: 15px;padding-bottom: 5%;color: var(--green-color);overflow-y: hidden;overflow: hidden;
 }
 .on-upgrade{
     text-align: center;
@@ -159,7 +162,7 @@ label{
 }
 .area-one h1{
     text-align: center;font-size: 2.5rem;color: var(--wheat-color);font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;border-bottom: 3px solid rgb(235, 235, 4);
+    font-family: 'Source Sans Pro', sans-serif;border-bottom: 3px solid var(--gold-color);
     width: 30%;margin: 0 auto;margin-bottom: 10px;
 }
 .area-one img{
@@ -174,14 +177,14 @@ label{
     background: none;text-align: center;padding: 20px;padding-top: 30px;
 }
 .area-two table{
-    margin: 0 auto;background: none;padding: 10px;width: 68%;border: 2px solid rgb(63, 194, 117);
+    margin: 0 auto;background: none;padding: 10px;width: 68%;border: 2px solid var(--green-color);
     color: var(--white-color);font-weight: 600;
 }
 .area-two table tr,th{
-    border-bottom: 1px solid rgb(63, 131, 194);
+    border-bottom: 1px solid var(--regular_blue-color);
 }
 .area-two table tr,th,td{
-    padding: 10px;border-left: 2px solid rgb(63, 131, 194);
+    padding: 10px;border-left: 2px solid var(--regular_blue-color);
 }
 .area-two table img{
     width: 20px;
@@ -306,7 +309,7 @@ label{
 }
 .my-profile .button-list button:hover{
     transition: all 0.6s;
-    background: rgb(63, 131, 194);
+    background: var(--regular_blue-color);
 }
 .my-profile .button-list span{
     font-weight: 700;font-size: 2rem;color: var(--white-color);
@@ -404,7 +407,7 @@ label{
         padding: 1% 6% 5%;
     }
     .home .scrolldown{
-        background: rgb(235, 235, 4);border: none;padding: 13px 20px;border-radius: 100%;
+        background: var(--gold-color);border: none;padding: 13px 20px;border-radius: 100%;
         font-size: 1.5rem;font-weight: 600;color: var(--dark_blue-color);cursor: pointer;transition: all 0.6s;margin: -10px;
         float: right;margin-top: -60px;
     }
@@ -450,7 +453,7 @@ label{
         background: none;width: 25%;margin: 20px;display: inline-block;
     }
     .pictures .play-button{
-        background: rgb(63, 194, 117);border: none;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
+        background: var(--green-color);border: none;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
         padding: 15px 25%;transition: all 0.6s;cursor: pointer;z-index: 3;float: right;margin: 20px;
     }
     .contact-us{
@@ -523,7 +526,7 @@ label{
         background: none;width: 28%;margin: 20px;display: inline-block;
     }
     .pictures .play-button{
-        background: rgb(63, 194, 117);border: none;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
+        background: var(--green-color);border: none;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
         padding: 14px 10%;transition: all 0.6s;cursor: pointer;z-index: 3;float: right;margin: 20px;
     }
     .blogs-list{
@@ -532,14 +535,14 @@ label{
 }
 @media(max-width:800px){
     .area-two table{
-        margin: 0 auto;background: none;padding: 10px;width: 68%;border: 2px solid rgb(63, 194, 117);
+        margin: 0 auto;background: none;padding: 10px;width: 68%;border: 2px solid var(--green-color);
         color: var(--white-color);font-weight: 600;
     }
     .area-two table tr,th{
-        border-bottom: 1px solid rgb(63, 131, 194);font-size: 0.8rem;
+        border-bottom: 1px solid var(--regular_blue-color);font-size: 0.8rem;
     }
     .area-two table tr,th,td{
-        padding: 10px;border-left: 2px solid rgb(63, 131, 194);
+        padding: 10px;border-left: 2px solid var(--regular_blue-color);
     }
     .area-two table img{
         width: 20px;
@@ -554,7 +557,7 @@ label{
         background: none;height: auto;width: 100%;margin: 0 auto;
     }
     .area-two table{
-        margin: 0 auto;background: none;padding: 10px;width: 68%;border: 2px solid rgb(63, 194, 117);
+        margin: 0 auto;background: none;padding: 10px;width: 68%;border: 2px solid var(--green-color);
         color: var(--white-color);font-weight: 600;align-items: center;
     }
     .area-two table tr,th{
@@ -584,7 +587,7 @@ label{
         background: none;width: 34%;margin: 20px;display: inline-block;
     }
     .pictures .play-button{
-        background: rgb(63, 194, 117);border: none;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
+        background: var(--green-color);border: none;font-size: 3.2rem;font-weight: 600;color: var(--white-color);
         padding: 20px 30px;transition: all 0.6s;cursor: pointer;z-index: 3;float: right;margin: 20px;
         border-radius: 5px;
     }
@@ -629,12 +632,12 @@ label{
         background: none;width: 45%;margin: 20px;display: inline-block;
     }
     .pictures .play-button{
-        background: rgb(63, 194, 117);border: none;font-size: 2rem;font-weight: 600;color: var(--white-color);
+        background: var(--green-color);border: none;font-size: 2rem;font-weight: 600;color: var(--white-color);
         padding: 10px 20px;transition: all 0.6s;cursor: pointer;z-index: 3;float: right;margin: 20px;
         border-radius: 5px;
     }
     .home .scrolldown{
-        background: rgb(235, 235, 4);border: none;padding: 13px 20px;border-radius: 100%;
+        background: var(--gold-color);border: none;padding: 13px 20px;border-radius: 100%;
         font-size: 1.5rem;font-weight: 600;color: var(--dark_blue-color);cursor: pointer;transition: all 0.6s;margin: -10px;
         float: right;margin-top: -60px;margin-right: -15px;
     }
@@ -704,7 +707,7 @@ label{
 }
 .game-box h2{
     background: none;width: 80%;margin: 20px auto;font-size: 26px;color: var(--wheat-color);
-    border-bottom: 1px solid rgb(235, 235, 4) ;padding: 8px 0px;
+    border-bottom: 1px solid var(--gold-color) ;padding: 8px 0px;
 }
 .game-box p{
     color: var(--white-color);text-align:justify;padding: 8px;font-family: 'Source Sans Pro', sans-serif;
