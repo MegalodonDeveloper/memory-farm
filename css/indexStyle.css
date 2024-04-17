@@ -9,8 +9,9 @@
     --gold-color: rgb(235, 235, 4);
     --green-color: rgb(63, 194, 117);
 }
-
-
+html {
+    scroll-behavior: smooth;
+  }
 body{
     width: auto;
     height: auto;
