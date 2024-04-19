@@ -690,7 +690,7 @@ label{
     }
 }
 #No1A{
-    padding: 0% 1% 8%;background: var(--dark_blue-color);height: auto;
+    padding: 0% 1% 8%;background: var(--dark_blue-color);height: 80vh;
 }
 .game-list{
     background: none;width: 100%;display: flex;align-items: center;padding-top: 90px;padding-bottom: 1%;
@@ -796,6 +796,12 @@ label{
     }
     .grid img{
         width: 70px;
+    }
+    
+}
+@media(max-width:830px){
+    #No1A{
+        height: 125vh;
     }
 }
 @media(max-width:517px){
