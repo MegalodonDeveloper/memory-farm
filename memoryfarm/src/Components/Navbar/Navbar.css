@@ -1,0 +1,33 @@
+.navbar{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5px;
+}
+.navbar h1{
+    font-family: 'Rye', cursive;
+    padding: 20px;
+    font-size: 1.6rem;
+    margin-left: 15px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    margin: auto 25px;
+}
+.navbar ul li{
+    padding: 10px 27px;
+    font-weight: 600;
+    border-bottom: 1px solid yellow;
+    transition: all 0.6s;
+}
+.navbar li:hover{
+    cursor: pointer;background: #B46060;
+    transition: all 0.6s;
+}

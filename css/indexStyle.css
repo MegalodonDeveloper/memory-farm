@@ -35,14 +35,17 @@ a{
     justify-content: space-between;overflow: hidden;
 }
 .navbar h1{
-    background: none;margin: 2rem;font-size: 2rem;font-family: 'Rye', cursive;margin-left: 1rem;color: var(--white-color);
+    background: none;margin: 2rem;font-size: 2rem;
+    font-family: 'Rye', cursive;margin-left: 1rem;color: var(--white-color);
     display: inline-block;
 }
 .navbar ul{
     list-style: none;display: flex;background: none;margin-right: 40px;margin-top: 10px;
 }
 .navbar li{
-    padding: 10px 25px;background: none;margin-left: 1rem;font-weight: 600;color: var(--white-color);margin-top:0.8rem;
+    padding: 10px 25px;background: none;
+    margin-left: 1rem;font-weight: 600;
+    color: var(--white-color);margin-top:0.8rem;
     border-bottom: 1px solid yellow;transition: all 0.6s;
 }
 .navbar li:hover{
